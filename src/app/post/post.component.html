@@ -1,0 +1,22 @@
+<div class = "container-post">
+    <div *ngFor = "let post of posts">
+        <div class= "container d-flex pt-4 pb-4">
+            <img class = "mr-3 align-self-center rounded-circle" src = "{{post.profilePhoto}}">
+            <h2 class = "flex-grow-1 align-self-center">{{post.username}}</h2>
+            <i class="material-icons align-self-center">more_horiz</i>
+        </div>
+        <div class = "d-flex justify-content-center align-items-center">
+            <img src = "{{post.photo}}" class = "photo" alt = "{{post.title}}">
+        </div>
+        <div class = "pt-3 tool-bar">
+            <app-like></app-like>
+            <i class="far fa-comment"></i>
+            <i class="fas fa-share"></i>
+        </div>
+        <hr/>
+        <div class = "description"> 
+            <p><b>{{post.username}}</b> {{post.description}}</p>
+        </div>
+        
+    </div>
+</div>

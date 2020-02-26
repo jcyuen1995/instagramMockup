@@ -1,0 +1,6 @@
+<i  *ngIf = "liked; else fill" 
+class="fas fa-heart" 
+(click) = "heartUnFill()"></i>
+<ng-template #fill>
+<i class="far fa-heart" (click) = "heartFill()"></i>
+</ng-template>

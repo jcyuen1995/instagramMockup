@@ -1,0 +1,33 @@
+/* * {
+    outline: red 1px solid;
+} */
+
+.container-post {
+    width: 33%;
+    margin:auto;
+}
+
+img.photo {
+    width: 100%;
+    height:100%;
+    z-index:0;
+}
+
+h2 {
+    font-size: 0.9rem;
+}
+
+div.tool-bar {
+    font-size: 1.5rem;
+}
+
+div.tool-bar i {
+    padding-right: 1rem;
+}
+
+i.liked {
+    position: absolute;
+    color: red;
+    z-index: 1;
+    font-size: 10rem;
+}
